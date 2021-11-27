@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "DMTR Consulting"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Lucia is a yoga teacher offering classes, workshops and retreats for, among the others, vinyasa yoga, yin yoga and yoga nidra. Stay connected."
+
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+# baseurl: https://beingeorge.com/lancer-jekyll
+
+navigation:
+  - text: Home
+    url: /#home
+  - text: about
+    url: /#about
+  - text: classes
+    url: /#services
+  - text: Works
+    url: /#portfolio
+  #- text: Blog
+  #  url: /#blog
+  - text: Contact
+    url: /#contact
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://dmtr-consulting.github.io"
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "DMTR Consulting"
+
+# Social links in the site footer
+instagram_username: ""
+facebook_username: ""
+whatsapp_username: "39320"
+telegram_username: "wip"
+email: "wip.com"
