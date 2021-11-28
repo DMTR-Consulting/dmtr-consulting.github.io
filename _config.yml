@@ -9,7 +9,7 @@
 title: "DMTR Consulting"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "Lucia is a yoga teacher offering classes, workshops and retreats for, among the others, vinyasa yoga, yin yoga and yoga nidra. Stay connected."
+description: ""
 
 
 # The subpath of your site, e.g. /blog, for generating urls
@@ -19,12 +19,14 @@ baseurl:
 navigation:
   - text: Home
     url: /#home
-  - text: about
-    url: /#about
-  - text: classes
+  - text: About DMTR
+    url: /#aboutdmtr
+  - text: About us
+    url: /#aboutus
+  - text: services
     url: /#services
-  - text: Works
-    url: /#portfolio
+#  - text: Portfolio
+#    url: /#portfolio
   #- text: Blog
   #  url: /#blog
   - text: Contact
@@ -43,8 +45,6 @@ disqus:
 author_name: "DMTR Consulting"
 
 # Social links in the site footer
-instagram_username: ""
-facebook_username: ""
-whatsapp_username: "39320"
-telegram_username: "wip"
+linkedin_username: "dmtr"
+whatsapp_username: "39xxxxxxxxxx"
 email: "wip.com"

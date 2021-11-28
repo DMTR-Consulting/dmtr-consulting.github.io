@@ -1229,7 +1229,8 @@ figure {
     position: absolute;
     height: 100%;
     width: 100%;
-    border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;
+    /*border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;*/
+	border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
     background-color: #f5f5f5;
     top: 10%;
     left: 10%;
@@ -1238,7 +1239,8 @@ figure {
 }
 
 .side-image img {
-	border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;
+	/*border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;*/
+	border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
     height: 500px;
     object-fit: cover;
     width: auto;
