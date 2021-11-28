@@ -1709,13 +1709,13 @@ figure {
 }
 
 #loading{
-	background: #afd6f6;
-	background: -moz-linear-gradient(45deg, #afd6f6 0%, #17585d 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, #afd6f6), color-stop(100%, #17585d));
-	background: -webkit-linear-gradient(45deg, #afd6f6 0%, #17585d 100%);
-	background: -o-linear-gradient(45deg, #afd6f6 0%, #17585d 100%);
-	background: -ms-linear-gradient(45deg, #afd6f6 0%, #17585d 100%);
-	background: linear-gradient(45deg, #afd6f6 0%, #17585d 100%);
+	background: #64bdc2;
+	background: -moz-linear-gradient(45deg, #64bdc2 0%, #17585d 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, #64BDC2FF), color-stop(100%, #17585d));
+	background: -webkit-linear-gradient(45deg, #64BDC2FF 0%, #17585d 100%);
+	background: -o-linear-gradient(45deg, #64BDC2FF 0%, #17585d 100%);
+	background: -ms-linear-gradient(45deg, #64BDC2FF 0%, #17585d 100%);
+	background: linear-gradient(45deg, #64BDC2FF 0%, #17585d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
 	height: 100%;
 	width: 100%;
