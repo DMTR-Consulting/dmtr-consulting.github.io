@@ -467,12 +467,12 @@ textarea.form-control {
 
 .module-title:after {
     content: "}";
-    color: #17585d;
+    color: #932e23;
 }
 
 .module-title:before {
     content: "{";
-    color: #17585d;
+    color: #932e23;
 }
 
 .module-title span{
