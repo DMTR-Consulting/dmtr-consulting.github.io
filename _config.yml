@@ -17,14 +17,16 @@ baseurl:
 # baseurl: https://beingeorge.com/lancer-jekyll
 
 navigation:
-  - text: Home
-    url: /#home
+#  - text: Home
+#    url: /#home
   - text: About DMTR
     url: /#aboutdmtr
   - text: About us
     url: /#aboutus
   - text: services
     url: /#services
+  - text: partners
+    url: /#partners
 #  - text: Portfolio
 #    url: /#portfolio
   #- text: Blog
@@ -45,6 +47,7 @@ disqus:
 author_name: "DMTR Consulting"
 
 # Social links in the site footer
-linkedin_username: "dmtr"
-whatsapp_username: "39xxxxxxxxxx"
+#linkedin_username: "dmtr"
+whatsapp_username1: "393473448991"
+whatsapp_username2: "4915255451289"
 email: "info@dmtrconsulting.com"
