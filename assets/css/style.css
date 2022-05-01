@@ -1204,6 +1204,11 @@ figure {
 .partner-iconbox-title {
 	margin: 0 0 25px;
 	padding: 0;
+	text-transform: none;
+}
+
+.partner-logo {
+	max-height: 190px;
 }
 
 /* ---------------------------------------------- /*
