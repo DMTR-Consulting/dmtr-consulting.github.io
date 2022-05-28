@@ -1225,10 +1225,15 @@ figure {
 
 .about-dmtr-image {
 	object-position: 43%;
-	height: 400px !important;
 }
 
 .side-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-image-mirror {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1240,13 +1245,18 @@ figure {
 	margin: 0 auto;
 }
 
+.side-image-wrapper-mirror {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
 .side-image-wrapper:after {
 	content: "";
     position: absolute;
     height: 100%;
     width: 100%;
-    /*border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;*/
-	border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
+    border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
     background-color: #f5f5f5;
     top: 10%;
     left: 10%;
@@ -1254,14 +1264,37 @@ figure {
     max-width: 500px;
 }
 
+.side-image-wrapper-mirror:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 32% 30% 50% 68%/50% 70% 69% 37%;
+    background: #fff !important;
+    top: 10%;
+    left: 10%;
+    /*z-index: -1;*/
+    max-width: 400px;
+}
+
 .side-image img {
-	/*border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;*/
-	border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
+    border-radius: 30% 32% 68% 50%/70% 50% 37% 69%;
     height: 500px;
     object-fit: cover;
     width: auto;
     margin: 0 auto;
     display: block;
+}
+
+.side-image-mirror img {
+    border-radius: 32% 30% 50% 68%/50% 70% 69% 37%;
+    height: 400px;
+    object-fit: cover;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    z-index: 1;
+    position: relative;
 }
 
 .side-image-text {
@@ -1857,6 +1890,10 @@ figure {
 		position: relative;
 	}
 
+	.side-image-mirror {
+		position: relative;
+	}
+
 	.list-items-container .list-item {
 		width: 50%;
 	}
@@ -1922,6 +1959,11 @@ figure {
 		left: -10%;
 	}
 
+	.side-image-wrapper-mirror:after {
+		top: -10%;
+		left: -10%;
+	}
+
 	.navbar-custom, .navbar-custom .dropdown-menu {
 		padding: .5rem 1rem;
 	}
@@ -1936,6 +1978,10 @@ figure {
 
 	.side-image img {
 	    height: 350px;
+	}
+
+	.side-image-mirror img {
+	    height: 300px;
 	}
 
 	#services .col-md-6:last-child .iconbox {
