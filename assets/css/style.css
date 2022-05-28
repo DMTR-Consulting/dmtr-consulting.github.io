@@ -1223,6 +1223,10 @@ figure {
 	position: relative;
 }
 
+.about-dmtr-image {
+	object-position: 42%;
+}
+
 .side-image {
 	display: flex;
 	justify-content: center;
