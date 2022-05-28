@@ -1224,7 +1224,8 @@ figure {
 }
 
 .about-dmtr-image {
-	object-position: 42%;
+	object-position: 43%;
+	height: 400px !important;
 }
 
 .side-image {
