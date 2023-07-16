@@ -27,8 +27,8 @@ navigation:
     url: /#services
   - text: partners
     url: /#partners
-#  - text: Portfolio
-#    url: /#portfolio
+  - text: News
+    url: /#news
   #- text: Blog
   #  url: /#blog
   - text: Contact

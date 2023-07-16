@@ -422,7 +422,7 @@ textarea.form-control {
 }
 
 .module-header {
-	margin: 0 auto 50px;
+	margin: 0 auto 20px;
 	text-align: center;
 }
 
@@ -1225,6 +1225,14 @@ figure {
 
 .about-dmtr-image {
 	object-position: 43%;
+}
+
+.prize-image {
+	width: 650px;
+}
+
+.eu-logo-image {
+	width: 250px;
 }
 
 .side-image {

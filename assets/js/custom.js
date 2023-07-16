@@ -80,11 +80,11 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 
 $('.testimonials').owlCarousel({
 	singleItem: true,
-	navigation: false,
-	pagination: true,
+	navigation: false,  // freccia da boomer
+	pagination: false,  // pallini di sotto
 	slideSpeed : 300,
 	paginationSpeed : 400,
-	autoPlay: 8000,
+	autoPlay: 300000,  // default: 8000 (millis)
 	navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
 });
 
